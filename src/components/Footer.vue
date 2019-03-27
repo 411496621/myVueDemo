@@ -27,7 +27,7 @@ export default {
       isSelectAll:{
         get(){
            const {completeCount,todos} = this
-           return completeCount === todos.length && completeCount !=0
+           return completeCount === todos.length && completeCount!==0
         },
         set(value){
           this.updateTodos(value)

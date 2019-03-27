@@ -13,7 +13,7 @@
 <script>
 import Header from "./components/Header"
 import Footer from "./components/Footer"
-import List from "./components//List"
+import List from "./components/List"
 import untils from "./untils/StorageUntils"
 export default {
 	components:{
