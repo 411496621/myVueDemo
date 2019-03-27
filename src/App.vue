@@ -1,13 +1,13 @@
 <template>
 	<div>
 		<img src="./assets/logo.png" alt="" />
-		<HelloWorld />	
+		<HelloWorld />
 		<hello-world />
 	</div>
 </template>
 
 <script>
-  import HelloWorld from "./components/HelloWorld"
+	import HelloWorld from './components/HelloWorld'
 	export default {
 		components:{
 			HelloWorld
