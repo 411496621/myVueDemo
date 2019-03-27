@@ -1,8 +1,6 @@
 import Vue from "vue"
-import {Button} from "mint-ui"
 import App from "./App"
-
-Vue.component(Button.name,Button)
+import './base.css'
 
 new Vue({
   el:'#app',
