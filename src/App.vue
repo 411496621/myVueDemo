@@ -1,18 +1,20 @@
 <template>
   <div>
-    <mt-button @click="handleClick" type="primary" style="width: 100%">xxx</mt-button>
-
+    <div class="container">
+      <Search />
+      <List />
+    </div>
   </div>
 </template>
 
 <script>
-  import {Toast} from "mint-ui"
+  import Search from './components/Search.vue'
+  import List from "./components/List.vue"
   export default {
-    methods: {
-      handleClick () {
-        Toast("ok")
-      }
-    },
+    components:{
+      Search,
+      List
+    }
   }
 </script>
 
